@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBE29DC27500C944D32DCF52 /* libPods-kuryeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69316DF3B2C3219B09066605 /* libPods-kuryeApp.a */; };
+		DE4F7AAA23953339003B6CE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F7AA923953339003B6CE9 /* AppDelegate.swift */; };
+		DE4F7AAE23953339003B6CE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F7AAD23953339003B6CE9 /* ViewController.swift */; };
+		DE4F7AB123953339003B6CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4F7AAF23953339003B6CE9 /* Main.storyboard */; };
+		DE4F7AB32395333A003B6CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4F7AB22395333A003B6CE9 /* Assets.xcassets */; };
+		DE4F7AB62395333A003B6CE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4F7AB42395333A003B6CE9 /* LaunchScreen.storyboard */; };
+		DE4F7ABF23953394003B6CE9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F7ABD23953394003B6CE9 /* LoginViewController.swift */; };
+		DE4F7AC023953394003B6CE9 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4F7ABE23953394003B6CE9 /* LoginViewController.xib */; };
+		DE4F7AC2239547EB003B6CE9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F7AC1239547EB003B6CE9 /* CustomButton.swift */; };
+		DE4F7AC523955986003B6CE9 /* BasvuruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F7AC323955986003B6CE9 /* BasvuruViewController.swift */; };
+		DE4F7AC623955986003B6CE9 /* BasvuruViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4F7AC423955986003B6CE9 /* BasvuruViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		245072E74A8F1A66A380C952 /* Pods-kuryeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kuryeApp.debug.xcconfig"; path = "Target Support Files/Pods-kuryeApp/Pods-kuryeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		69316DF3B2C3219B09066605 /* libPods-kuryeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kuryeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F3733A15BAC89D807042BAE /* Pods-kuryeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kuryeApp.release.xcconfig"; path = "Target Support Files/Pods-kuryeApp/Pods-kuryeApp.release.xcconfig"; sourceTree = "<group>"; };
+		DE1FC45323967B5F004BCC37 /* kuryeApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kuryeApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE4F7AA623953339003B6CE9 /* kuryeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kuryeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4F7AA923953339003B6CE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE4F7AAD23953339003B6CE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE4F7AB023953339003B6CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE4F7AB22395333A003B6CE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE4F7AB52395333A003B6CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE4F7AB72395333A003B6CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4F7ABD23953394003B6CE9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DE4F7ABE23953394003B6CE9 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		DE4F7AC1239547EB003B6CE9 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		DE4F7AC323955986003B6CE9 /* BasvuruViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasvuruViewController.swift; sourceTree = "<group>"; };
+		DE4F7AC423955986003B6CE9 /* BasvuruViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasvuruViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE4F7AA323953339003B6CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE29DC27500C944D32DCF52 /* libPods-kuryeApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27CA8400F25AB8995F1F0B17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69316DF3B2C3219B09066605 /* libPods-kuryeApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C88768E9BCFE10EF5CA17F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				245072E74A8F1A66A380C952 /* Pods-kuryeApp.debug.xcconfig */,
+				6F3733A15BAC89D807042BAE /* Pods-kuryeApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE1FC4562396807B004BCC37 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE4F7AA923953339003B6CE9 /* AppDelegate.swift */,
+				DE4F7ABD23953394003B6CE9 /* LoginViewController.swift */,
+				DE4F7ABE23953394003B6CE9 /* LoginViewController.xib */,
+				DE4F7AC323955986003B6CE9 /* BasvuruViewController.swift */,
+				DE4F7AC423955986003B6CE9 /* BasvuruViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DE4F7A9D23953339003B6CE9 = {
+			isa = PBXGroup;
+			children = (
+				DE4F7AA823953339003B6CE9 /* kuryeApp */,
+				DE4F7AA723953339003B6CE9 /* Products */,
+				2C88768E9BCFE10EF5CA17F9 /* Pods */,
+				27CA8400F25AB8995F1F0B17 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE4F7AA723953339003B6CE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE4F7AA623953339003B6CE9 /* kuryeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE4F7AA823953339003B6CE9 /* kuryeApp */ = {
+			isa = PBXGroup;
+			children = (
+				DE1FC4562396807B004BCC37 /* ViewControllers */,
+				DE1FC45323967B5F004BCC37 /* kuryeApp-Bridging-Header.h */,
+				DE4F7AAD23953339003B6CE9 /* ViewController.swift */,
+				DE4F7AAF23953339003B6CE9 /* Main.storyboard */,
+				DE4F7AB22395333A003B6CE9 /* Assets.xcassets */,
+				DE4F7AB42395333A003B6CE9 /* LaunchScreen.storyboard */,
+				DE4F7AB72395333A003B6CE9 /* Info.plist */,
+				DE4F7AC1239547EB003B6CE9 /* CustomButton.swift */,
+			);
+			path = kuryeApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE4F7AA523953339003B6CE9 /* kuryeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE4F7ABA2395333A003B6CE9 /* Build configuration list for PBXNativeTarget "kuryeApp" */;
+			buildPhases = (
+				81F80EF4FB92CF5F9C48AC1D /* [CP] Check Pods Manifest.lock */,
+				DE4F7AA223953339003B6CE9 /* Sources */,
+				DE4F7AA323953339003B6CE9 /* Frameworks */,
+				DE4F7AA423953339003B6CE9 /* Resources */,
+				5327641D094BD0EE55E9C3F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kuryeApp;
+			productName = kuryeApp;
+			productReference = DE4F7AA623953339003B6CE9 /* kuryeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE4F7A9E23953339003B6CE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = burgan;
+				TargetAttributes = {
+					DE4F7AA523953339003B6CE9 = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = DE4F7AA123953339003B6CE9 /* Build configuration list for PBXProject "kuryeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE4F7A9D23953339003B6CE9;
+			productRefGroup = DE4F7AA723953339003B6CE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE4F7AA523953339003B6CE9 /* kuryeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE4F7AA423953339003B6CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4F7AC023953394003B6CE9 /* LoginViewController.xib in Resources */,
+				DE4F7AB62395333A003B6CE9 /* LaunchScreen.storyboard in Resources */,
+				DE4F7AB32395333A003B6CE9 /* Assets.xcassets in Resources */,
+				DE4F7AB123953339003B6CE9 /* Main.storyboard in Resources */,
+				DE4F7AC623955986003B6CE9 /* BasvuruViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5327641D094BD0EE55E9C3F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kuryeApp/Pods-kuryeApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kuryeApp/Pods-kuryeApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kuryeApp/Pods-kuryeApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81F80EF4FB92CF5F9C48AC1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kuryeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE4F7AA223953339003B6CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4F7ABF23953394003B6CE9 /* LoginViewController.swift in Sources */,
+				DE4F7AC523955986003B6CE9 /* BasvuruViewController.swift in Sources */,
+				DE4F7AAE23953339003B6CE9 /* ViewController.swift in Sources */,
+				DE4F7AAA23953339003B6CE9 /* AppDelegate.swift in Sources */,
+				DE4F7AC2239547EB003B6CE9 /* CustomButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE4F7AAF23953339003B6CE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE4F7AB023953339003B6CE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE4F7AB42395333A003B6CE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE4F7AB52395333A003B6CE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE4F7AB82395333A003B6CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE4F7AB92395333A003B6CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE4F7ABB2395333A003B6CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 245072E74A8F1A66A380C952 /* Pods-kuryeApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kuryeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brgn.kuryeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "kuryeApp/kuryeApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE4F7ABC2395333A003B6CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F3733A15BAC89D807042BAE /* Pods-kuryeApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kuryeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brgn.kuryeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "kuryeApp/kuryeApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE4F7AA123953339003B6CE9 /* Build configuration list for PBXProject "kuryeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4F7AB82395333A003B6CE9 /* Debug */,
+				DE4F7AB92395333A003B6CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE4F7ABA2395333A003B6CE9 /* Build configuration list for PBXNativeTarget "kuryeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4F7ABB2395333A003B6CE9 /* Debug */,
+				DE4F7ABC2395333A003B6CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE4F7A9E23953339003B6CE9 /* Project object */;
+}
