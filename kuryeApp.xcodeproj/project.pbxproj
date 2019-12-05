@@ -8,16 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		DBE29DC27500C944D32DCF52 /* libPods-kuryeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69316DF3B2C3219B09066605 /* libPods-kuryeApp.a */; };
+		DE1FC45823979346004BCC37 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1FC45723979346004BCC37 /* BaseViewController.swift */; };
 		DE4F7AAA23953339003B6CE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F7AA923953339003B6CE9 /* AppDelegate.swift */; };
 		DE4F7AAE23953339003B6CE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F7AAD23953339003B6CE9 /* ViewController.swift */; };
 		DE4F7AB123953339003B6CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4F7AAF23953339003B6CE9 /* Main.storyboard */; };
 		DE4F7AB32395333A003B6CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4F7AB22395333A003B6CE9 /* Assets.xcassets */; };
 		DE4F7AB62395333A003B6CE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4F7AB42395333A003B6CE9 /* LaunchScreen.storyboard */; };
-		DE4F7ABF23953394003B6CE9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F7ABD23953394003B6CE9 /* LoginViewController.swift */; };
 		DE4F7AC023953394003B6CE9 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4F7ABE23953394003B6CE9 /* LoginViewController.xib */; };
 		DE4F7AC2239547EB003B6CE9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F7AC1239547EB003B6CE9 /* CustomButton.swift */; };
 		DE4F7AC523955986003B6CE9 /* BasvuruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F7AC323955986003B6CE9 /* BasvuruViewController.swift */; };
 		DE4F7AC623955986003B6CE9 /* BasvuruViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4F7AC423955986003B6CE9 /* BasvuruViewController.xib */; };
+		DE88CEC22397CABA00B7203A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F7ABD23953394003B6CE9 /* LoginViewController.swift */; };
+		DE88CECA2397DEED00B7203A /* CustomButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE88CEC92397DEED00B7203A /* CustomButton.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,7 @@
 		69316DF3B2C3219B09066605 /* libPods-kuryeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kuryeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F3733A15BAC89D807042BAE /* Pods-kuryeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kuryeApp.release.xcconfig"; path = "Target Support Files/Pods-kuryeApp/Pods-kuryeApp.release.xcconfig"; sourceTree = "<group>"; };
 		DE1FC45323967B5F004BCC37 /* kuryeApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kuryeApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE1FC45723979346004BCC37 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		DE4F7AA623953339003B6CE9 /* kuryeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kuryeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4F7AA923953339003B6CE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE4F7AAD23953339003B6CE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +40,7 @@
 		DE4F7AC1239547EB003B6CE9 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		DE4F7AC323955986003B6CE9 /* BasvuruViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasvuruViewController.swift; sourceTree = "<group>"; };
 		DE4F7AC423955986003B6CE9 /* BasvuruViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasvuruViewController.xib; sourceTree = "<group>"; };
+		DE88CEC92397DEED00B7203A /* CustomButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomButton.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +75,7 @@
 		DE1FC4562396807B004BCC37 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				DE4F7AA923953339003B6CE9 /* AppDelegate.swift */,
+				DE1FC45723979346004BCC37 /* BaseViewController.swift */,
 				DE4F7ABD23953394003B6CE9 /* LoginViewController.swift */,
 				DE4F7ABE23953394003B6CE9 /* LoginViewController.xib */,
 				DE4F7AC323955986003B6CE9 /* BasvuruViewController.swift */,
@@ -102,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				DE1FC4562396807B004BCC37 /* ViewControllers */,
+				DE4F7AA923953339003B6CE9 /* AppDelegate.swift */,
 				DE1FC45323967B5F004BCC37 /* kuryeApp-Bridging-Header.h */,
 				DE4F7AAD23953339003B6CE9 /* ViewController.swift */,
 				DE4F7AAF23953339003B6CE9 /* Main.storyboard */,
@@ -109,6 +114,7 @@
 				DE4F7AB42395333A003B6CE9 /* LaunchScreen.storyboard */,
 				DE4F7AB72395333A003B6CE9 /* Info.plist */,
 				DE4F7AC1239547EB003B6CE9 /* CustomButton.swift */,
+				DE88CEC92397DEED00B7203A /* CustomButton.xib */,
 			);
 			path = kuryeApp;
 			sourceTree = "<group>";
@@ -178,6 +184,7 @@
 				DE4F7AB62395333A003B6CE9 /* LaunchScreen.storyboard in Resources */,
 				DE4F7AB32395333A003B6CE9 /* Assets.xcassets in Resources */,
 				DE4F7AB123953339003B6CE9 /* Main.storyboard in Resources */,
+				DE88CECA2397DEED00B7203A /* CustomButton.xib in Resources */,
 				DE4F7AC623955986003B6CE9 /* BasvuruViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,11 +238,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE4F7ABF23953394003B6CE9 /* LoginViewController.swift in Sources */,
+				DE88CEC22397CABA00B7203A /* LoginViewController.swift in Sources */,
 				DE4F7AC523955986003B6CE9 /* BasvuruViewController.swift in Sources */,
 				DE4F7AAE23953339003B6CE9 /* ViewController.swift in Sources */,
 				DE4F7AAA23953339003B6CE9 /* AppDelegate.swift in Sources */,
 				DE4F7AC2239547EB003B6CE9 /* CustomButton.swift in Sources */,
+				DE1FC45823979346004BCC37 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

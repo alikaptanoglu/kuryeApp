@@ -1,29 +1,25 @@
 PODS:
-  - Alamofire (4.9.0)
+  - Alamofire (4.9.1)
   - IQKeyboardManagerSwift (6.5.4)
-  - KeychainAccess (3.2.0)
+  - KeychainAccess (4.1.0)
   - MarqueeLabel (4.0.0)
-  - NotificationBannerSwift (3.0.0):
+  - NotificationBannerSwift (3.0.2):
     - MarqueeLabel (~> 4.0.0)
     - SnapKit (~> 5.0.0)
   - NVActivityIndicatorView (4.8.0):
     - NVActivityIndicatorView/Presenter (= 4.8.0)
   - NVActivityIndicatorView/Presenter (4.8.0)
   - PryntTrimmerView (4.0.0)
-  - ServiceSpaceX (0.1.2):
+  - ServiceSpaceX (2.0.0):
     - Alamofire
     - KeychainAccess
     - NotificationBannerSwift
     - NVActivityIndicatorView
     - SwiftDate
-    - SwiftMessages
     - SwiftyJSON
   - SnapKit (5.0.1)
   - SteviaLayout (4.6.1)
   - SwiftDate (6.1.0)
-  - SwiftMessages (7.0.1):
-    - SwiftMessages/App (= 7.0.1)
-  - SwiftMessages/App (7.0.1)
   - SwiftyJSON (5.0.0)
   - Validator (3.2.1)
   - YPImagePicker (4.1.2):
@@ -50,24 +46,22 @@ SPEC REPOS:
     - SnapKit
     - SteviaLayout
     - SwiftDate
-    - SwiftMessages
     - SwiftyJSON
     - Validator
     - YPImagePicker
 
 SPEC CHECKSUMS:
-  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   IQKeyboardManagerSwift: 2dde0fc70110e8eac7ccce2a46fdbec6a850b414
-  KeychainAccess: 3b1bf8a77eb4c6ea1ce9404c292e48f948954c6b
+  KeychainAccess: 445e28864fe6d3458b41fa211bcdc39890e8bd5a
   MarqueeLabel: b55b26e690b6ad41faedd95cbf5eae6f1d1735b4
-  NotificationBannerSwift: 842401d30f5c36e4f2eafc152824566f6b3c1bb5
+  NotificationBannerSwift: 713e20f21b6105f4a36a00e5d9fa414a930d3d8e
   NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
   PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
-  ServiceSpaceX: 6da4c37e50971482a73a211aa2229c127e3dc36c
+  ServiceSpaceX: 3475124b9c14bab979bf17548f82058048ef80ff
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SteviaLayout: 0c83442390c8a369c21f975ffbd812d11532645b
   SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
-  SwiftMessages: b577dc7043be8b299857ab35bb663dbff6483bd0
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   Validator: 80a6f567220c962dfd2d9928ae98a8c1d164f6f4
   YPImagePicker: bdaa46782668e260fdd9709f19043a9f469fd2ad

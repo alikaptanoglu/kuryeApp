@@ -8,6 +8,7 @@
 
 import UIKit
 import ServiceSpaceX
+import IQKeyboardManagerSwift
 
 @available(iOS 13.0, *)
 @UIApplicationMain
@@ -19,19 +20,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        initialViewController  = LoginViewController(nibName:"LoginViewController",bundle:nil)
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+         let nav1 = UINavigationController()
+         let mainView = LoginViewController(nibName: nil, bundle: nil) //ViewController = Name of your controller
+         nav1.viewControllers = [mainView]
+         self.window!.rootViewController = nav1
+         self.window?.makeKeyAndVisible()
         
-        let frame = UIScreen.main.bounds
-        window = UIWindow(frame: frame)
         
-        window!.rootViewController = initialViewController
-        window!.makeKeyAndVisible()
-        
-        ServiceManager.serverTrustPolicy()
         
         Managers.shared.serviceURLConstansType = .live
-//        Managers.shared.serviceManager.constants.apiURL = ""
-        
+        //        Managers.shared.serviceManager.constants.apiURL = ""
+        IQKeyboardManager.shared.enable = true
         return true
     }
     

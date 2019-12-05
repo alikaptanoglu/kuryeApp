@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -9,7 +10,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="kuryeApp" customModuleProvider="target">
             <connections>
-                <outlet property="loginButton" destination="InX-YD-gxs" id="hdY-qJ-lxR"/>
+                <outlet property="adSoyad" destination="8be-gA-f2r" id="aW9-Qp-eCO"/>
+                <outlet property="kuryeSicilNo" destination="pFB-ZO-5yk" id="9NS-28-c22"/>
+                <outlet property="loginButton" destination="yTY-Iy-dSy" id="dhn-Ld-GB6"/>
                 <outlet property="loginImage" destination="L9j-9x-rKa" id="0Hj-kH-hcm"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -19,41 +22,57 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Kurye Sicil No..." borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8be-gA-f2r">
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ad Soyad..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8be-gA-f2r">
                     <rect key="frame" x="20" y="497" width="374" height="34"/>
-                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="L31-af-qak"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
+                    <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
                 </textField>
-                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ad Soyad..." borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pFB-ZO-5yk">
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kurye Sicil No..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pFB-ZO-5yk">
                     <rect key="frame" x="20" y="452" width="374" height="34"/>
-                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="8WM-gM-ioi"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                 </textField>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="InX-YD-gxs" customClass="CustomButton">
-                    <rect key="frame" x="137" y="666" width="141" height="50"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="Giriş Yap "/>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="Giriş Yap"/>
-                    </userDefinedRuntimeAttributes>
-                </button>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="burgan" translatesAutoresizingMaskIntoConstraints="NO" id="L9j-9x-rKa">
                     <rect key="frame" x="57" y="124" width="300" height="300"/>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yTY-Iy-dSy" customClass="CustomButton" customModule="kuryeApp" customModuleProvider="target">
+                    <rect key="frame" x="8" y="539" width="398" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="s8I-Lg-hUe"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="Giriş"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorX">
+                            <color key="value" red="0.0" green="0.60300594569999999" blue="0.86913758519999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="yTY-Iy-dSy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="54L-Og-fnN"/>
                 <constraint firstItem="8be-gA-f2r" firstAttribute="top" secondItem="pFB-ZO-5yk" secondAttribute="bottom" constant="11" id="8ZE-47-Z23"/>
                 <constraint firstItem="L9j-9x-rKa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="57" id="Ck6-En-N7E"/>
+                <constraint firstItem="yTY-Iy-dSy" firstAttribute="top" secondItem="8be-gA-f2r" secondAttribute="bottom" constant="8" id="IUA-eg-6uP"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="L9j-9x-rKa" secondAttribute="trailing" constant="57" id="Icd-Sd-Unb"/>
                 <constraint firstItem="L9j-9x-rKa" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="80" id="Q3q-AH-VQ4"/>
                 <constraint firstItem="pFB-ZO-5yk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="YMc-IE-xI2"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pFB-ZO-5yk" secondAttribute="trailing" constant="20" id="ZIK-a0-EuT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yTY-Iy-dSy" secondAttribute="trailing" constant="8" id="eIc-Rk-6Nd"/>
                 <constraint firstItem="pFB-ZO-5yk" firstAttribute="top" secondItem="L9j-9x-rKa" secondAttribute="bottom" constant="28" id="jwS-sh-6HW"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8be-gA-f2r" secondAttribute="trailing" constant="20" id="n4x-Ym-38J"/>
-                <constraint firstItem="InX-YD-gxs" firstAttribute="top" secondItem="8be-gA-f2r" secondAttribute="bottom" constant="135" id="pMb-Ug-aSX"/>
                 <constraint firstItem="8be-gA-f2r" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="x2b-xd-C2S"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

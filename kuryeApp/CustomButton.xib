@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleAspectFit" id="iN0-l3-epB" customClass="CustomButton" customModule="kuryeApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="609" height="348"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AaY-d6-y7U">
+                    <rect key="frame" x="0.0" y="0.0" width="609" height="348"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="GİRİŞ"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.60300594569999999" blue="0.86913758519999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="AaY-d6-y7U" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2N7-z6-u2M"/>
+                <constraint firstItem="AaY-d6-y7U" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="6ES-MY-RIh"/>
+                <constraint firstAttribute="trailing" secondItem="AaY-d6-y7U" secondAttribute="trailing" id="7yR-71-6KF"/>
+                <constraint firstAttribute="bottom" secondItem="AaY-d6-y7U" secondAttribute="bottom" id="J5i-5t-uZw"/>
+                <constraint firstItem="AaY-d6-y7U" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="dFc-Ti-fU2"/>
+                <constraint firstItem="AaY-d6-y7U" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="m4T-tM-QJw"/>
+                <constraint firstItem="AaY-d6-y7U" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="rfo-vg-82n"/>
+                <constraint firstItem="AaY-d6-y7U" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rvX-vc-jlU"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="0.0"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="customButton" destination="AaY-d6-y7U" id="tKX-Xz-ztK"/>
+            </connections>
+            <point key="canvasLocation" x="-596" y="129"/>
+        </view>
+        <view contentMode="scaleToFill" id="Wsa-9G-dr5">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <point key="canvasLocation" x="-599" y="592"/>
+        </view>
+    </objects>
+</document>
