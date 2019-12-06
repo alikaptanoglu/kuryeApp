@@ -2,26 +2,29 @@ PODS:
   - Alamofire (4.9.1)
   - IQKeyboardManagerSwift (6.5.4)
   - KeychainAccess (4.1.0)
-  - MarqueeLabel (4.0.0)
-  - NotificationBannerSwift (3.0.2):
-    - MarqueeLabel (~> 4.0.0)
-    - SnapKit (~> 5.0.0)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
   - NVActivityIndicatorView (4.8.0):
     - NVActivityIndicatorView/Presenter (= 4.8.0)
   - NVActivityIndicatorView/Presenter (4.8.0)
   - PryntTrimmerView (4.0.0)
-  - ServiceSpaceX (2.0.0):
+  - ReachabilitySwift (5.0.0)
+  - Result (4.1.0)
+  - ServiceSpaceX (3.0.1):
     - Alamofire
     - KeychainAccess
-    - NotificationBannerSwift
+    - Moya
     - NVActivityIndicatorView
+    - ReachabilitySwift
     - SwiftDate
     - SwiftyJSON
-  - SnapKit (5.0.1)
   - SteviaLayout (4.6.1)
   - SwiftDate (6.1.0)
+  - SwiftValidator (4.0.0)
   - SwiftyJSON (5.0.0)
-  - Validator (3.2.1)
   - YPImagePicker (4.1.2):
     - PryntTrimmerView (~> 4.0.0)
     - SteviaLayout (~> 4.6.0)
@@ -30,7 +33,7 @@ DEPENDENCIES:
   - Alamofire
   - IQKeyboardManagerSwift
   - ServiceSpaceX
-  - Validator
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, tag `4.2.0`)
   - YPImagePicker
 
 SPEC REPOS:
@@ -38,34 +41,43 @@ SPEC REPOS:
     - Alamofire
     - IQKeyboardManagerSwift
     - KeychainAccess
-    - MarqueeLabel
-    - NotificationBannerSwift
+    - Moya
     - NVActivityIndicatorView
     - PryntTrimmerView
+    - ReachabilitySwift
+    - Result
     - ServiceSpaceX
-    - SnapKit
     - SteviaLayout
     - SwiftDate
     - SwiftyJSON
-    - Validator
     - YPImagePicker
+
+EXTERNAL SOURCES:
+  SwiftValidator:
+    :git: https://github.com/jpotts18/SwiftValidator.git
+    :tag: 4.2.0
+
+CHECKOUT OPTIONS:
+  SwiftValidator:
+    :git: https://github.com/jpotts18/SwiftValidator.git
+    :tag: 4.2.0
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   IQKeyboardManagerSwift: 2dde0fc70110e8eac7ccce2a46fdbec6a850b414
   KeychainAccess: 445e28864fe6d3458b41fa211bcdc39890e8bd5a
-  MarqueeLabel: b55b26e690b6ad41faedd95cbf5eae6f1d1735b4
-  NotificationBannerSwift: 713e20f21b6105f4a36a00e5d9fa414a930d3d8e
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
   PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
-  ServiceSpaceX: 3475124b9c14bab979bf17548f82058048ef80ff
-  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  ServiceSpaceX: 89d90fdaed9a89b8102a974882616fbcf4b1271d
   SteviaLayout: 0c83442390c8a369c21f975ffbd812d11532645b
   SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
+  SwiftValidator: 249b6b3ae3b294266c5b9de134d94f18f2d5aa47
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
-  Validator: 80a6f567220c962dfd2d9928ae98a8c1d164f6f4
   YPImagePicker: bdaa46782668e260fdd9709f19043a9f469fd2ad
 
-PODFILE CHECKSUM: af5533d45911fe6c9dcb6e9a1093918404a71d23
+PODFILE CHECKSUM: 5ecb58844429ad91418cb9834e3bbde7d260b93f
 
 COCOAPODS: 1.8.3

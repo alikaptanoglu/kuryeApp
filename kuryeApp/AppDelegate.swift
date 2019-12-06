@@ -7,8 +7,9 @@
 //
 
 import UIKit
-import ServiceSpaceX
 import IQKeyboardManagerSwift
+
+
 
 @available(iOS 13.0, *)
 @UIApplicationMain
@@ -29,9 +30,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         
-        Managers.shared.serviceURLConstansType = .live
-        //        Managers.shared.serviceManager.constants.apiURL = ""
+      
         IQKeyboardManager.shared.enable = true
+    
         return true
     }
     

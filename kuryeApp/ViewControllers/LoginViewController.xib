@@ -10,11 +10,13 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="kuryeApp" customModuleProvider="target">
             <connections>
-                <outlet property="adSoyad" destination="8be-gA-f2r" id="aW9-Qp-eCO"/>
-                <outlet property="kuryeSicilNo" destination="pFB-ZO-5yk" id="9NS-28-c22"/>
-                <outlet property="loginButton" destination="yTY-Iy-dSy" id="dhn-Ld-GB6"/>
-                <outlet property="loginImage" destination="L9j-9x-rKa" id="0Hj-kH-hcm"/>
-                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="adSoyad" destination="qwY-5D-jdB" id="mfH-gG-JaS"/>
+                <outlet property="errorAdSoyad" destination="33r-TX-SRt" id="AcD-P0-IZG"/>
+                <outlet property="errorSicilNo" destination="A0D-cr-AvE" id="JJb-xn-gVo"/>
+                <outlet property="kuryeSicilNo" destination="xa2-mj-k5J" id="9gf-t5-BeN"/>
+                <outlet property="loginButton" destination="bC4-GE-vr2" id="2sF-Tt-CbR"/>
+                <outlet property="loginImage" destination="FcQ-jl-ynf" id="gvy-zy-VlY"/>
+                <outlet property="view" destination="ejo-p3-ZSF" id="gKN-mP-3n1"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -23,7 +25,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ad Soyad..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8be-gA-f2r">
-                    <rect key="frame" x="20" y="497" width="374" height="34"/>
+                    <rect key="frame" x="20" y="431" width="374" height="34"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="34" id="L31-af-qak"/>
                     </constraints>
@@ -31,7 +33,7 @@
                     <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
                 </textField>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kurye Sicil No..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pFB-ZO-5yk">
-                    <rect key="frame" x="20" y="452" width="374" height="34"/>
+                    <rect key="frame" x="20" y="386" width="374" height="34"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="34" id="8WM-gM-ioi"/>
                     </constraints>
@@ -39,10 +41,10 @@
                     <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                 </textField>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="burgan" translatesAutoresizingMaskIntoConstraints="NO" id="L9j-9x-rKa">
-                    <rect key="frame" x="57" y="124" width="300" height="300"/>
+                    <rect key="frame" x="57" y="58" width="300" height="300"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yTY-Iy-dSy" customClass="CustomButton" customModule="kuryeApp" customModuleProvider="target">
-                    <rect key="frame" x="8" y="539" width="398" height="60"/>
+                    <rect key="frame" x="8" y="473" width="398" height="60"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="60" id="s8I-Lg-hUe"/>
                     </constraints>
@@ -62,21 +64,122 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="yTY-Iy-dSy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="54L-Og-fnN"/>
+                <constraint firstItem="yTY-Iy-dSy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="54L-Og-fnN"/>
                 <constraint firstItem="8be-gA-f2r" firstAttribute="top" secondItem="pFB-ZO-5yk" secondAttribute="bottom" constant="11" id="8ZE-47-Z23"/>
-                <constraint firstItem="L9j-9x-rKa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="57" id="Ck6-En-N7E"/>
+                <constraint firstItem="8be-gA-f2r" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="97v-6i-PRa"/>
+                <constraint firstItem="L9j-9x-rKa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="57" id="Ck6-En-N7E"/>
                 <constraint firstItem="yTY-Iy-dSy" firstAttribute="top" secondItem="8be-gA-f2r" secondAttribute="bottom" constant="8" id="IUA-eg-6uP"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="L9j-9x-rKa" secondAttribute="trailing" constant="57" id="Icd-Sd-Unb"/>
-                <constraint firstItem="L9j-9x-rKa" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="80" id="Q3q-AH-VQ4"/>
-                <constraint firstItem="pFB-ZO-5yk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="YMc-IE-xI2"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pFB-ZO-5yk" secondAttribute="trailing" constant="20" id="ZIK-a0-EuT"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yTY-Iy-dSy" secondAttribute="trailing" constant="8" id="eIc-Rk-6Nd"/>
+                <constraint firstAttribute="trailing" secondItem="L9j-9x-rKa" secondAttribute="trailing" constant="57" id="Icd-Sd-Unb"/>
+                <constraint firstItem="pFB-ZO-5yk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="YMc-IE-xI2"/>
+                <constraint firstAttribute="trailing" secondItem="pFB-ZO-5yk" secondAttribute="trailing" constant="20" id="ZIK-a0-EuT"/>
+                <constraint firstItem="8be-gA-f2r" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="dbM-z5-a2L"/>
+                <constraint firstAttribute="trailing" secondItem="yTY-Iy-dSy" secondAttribute="trailing" constant="8" id="eIc-Rk-6Nd"/>
                 <constraint firstItem="pFB-ZO-5yk" firstAttribute="top" secondItem="L9j-9x-rKa" secondAttribute="bottom" constant="28" id="jwS-sh-6HW"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8be-gA-f2r" secondAttribute="trailing" constant="20" id="n4x-Ym-38J"/>
-                <constraint firstItem="8be-gA-f2r" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="x2b-xd-C2S"/>
+                <constraint firstAttribute="trailing" secondItem="8be-gA-f2r" secondAttribute="trailing" constant="20" id="n4x-Ym-38J"/>
+                <constraint firstItem="L9j-9x-rKa" firstAttribute="top" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="qJU-T7-Mqa"/>
+                <constraint firstItem="8be-gA-f2r" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="x2b-xd-C2S"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <viewLayoutGuide key="safeArea" id="ULu-2v-LDw"/>
             <point key="canvasLocation" x="131.8840579710145" y="136.60714285714286"/>
+        </view>
+        <view contentMode="scaleToFill" id="ejo-p3-ZSF">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5D3-QI-mrl">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="unC-w7-lgg">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="WdZ-YH-syT">
+                                    <rect key="frame" x="8" y="269" width="398" height="462"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="burgan" translatesAutoresizingMaskIntoConstraints="NO" id="FcQ-jl-ynf">
+                                            <rect key="frame" x="0.0" y="0.0" width="398" height="150"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="150" id="XYu-uW-W7g"/>
+                                            </constraints>
+                                        </imageView>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kurye Sicil No..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xa2-mj-k5J">
+                                            <rect key="frame" x="0.0" y="160" width="398" height="50"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        </textField>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0D-cr-AvE">
+                                            <rect key="frame" x="0.0" y="220" width="398" height="122"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ad Soyad..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qwY-5D-jdB">
+                                            <rect key="frame" x="0.0" y="352" width="398" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="qmm-f7-IyL"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                                        </textField>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="33r-TX-SRt">
+                                            <rect key="frame" x="0.0" y="412" width="398" height="50"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="qwY-5D-jdB" firstAttribute="height" secondItem="xa2-mj-k5J" secondAttribute="height" id="9Kx-9U-4dJ"/>
+                                        <constraint firstItem="33r-TX-SRt" firstAttribute="height" secondItem="A0D-cr-AvE" secondAttribute="height" multiplier="0.41" id="U6g-eb-ZPL"/>
+                                    </constraints>
+                                </stackView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bC4-GE-vr2" customClass="CustomButton" customModule="kuryeApp" customModuleProvider="target">
+                                    <rect key="frame" x="8" y="751" width="398" height="60"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="60" id="4da-wy-tXk"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="20"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="Giriş"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorX">
+                                            <color key="value" red="0.0" green="0.60300594569999999" blue="0.86913758519999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="bC4-GE-vr2" secondAttribute="trailing" constant="8" id="Kf3-Yo-nFh"/>
+                                <constraint firstItem="WdZ-YH-syT" firstAttribute="centerX" secondItem="unC-w7-lgg" secondAttribute="centerX" id="ODf-lm-LKl"/>
+                                <constraint firstItem="WdZ-YH-syT" firstAttribute="centerY" secondItem="unC-w7-lgg" secondAttribute="centerY" id="OG6-Dm-FMr"/>
+                                <constraint firstAttribute="trailing" secondItem="WdZ-YH-syT" secondAttribute="trailing" constant="8" id="Owa-yb-gNC"/>
+                                <constraint firstItem="WdZ-YH-syT" firstAttribute="leading" secondItem="unC-w7-lgg" secondAttribute="leading" constant="8" id="bNm-O1-y7K"/>
+                                <constraint firstItem="bC4-GE-vr2" firstAttribute="top" secondItem="WdZ-YH-syT" secondAttribute="bottom" constant="20" id="bWp-rc-bnk"/>
+                                <constraint firstItem="bC4-GE-vr2" firstAttribute="leading" secondItem="unC-w7-lgg" secondAttribute="leading" constant="8" id="mfF-ds-ZiY"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="unC-w7-lgg" secondAttribute="trailing" id="Y39-Do-7jL"/>
+                        <constraint firstAttribute="bottom" secondItem="unC-w7-lgg" secondAttribute="bottom" id="ZoW-ag-TmX"/>
+                        <constraint firstItem="unC-w7-lgg" firstAttribute="top" secondItem="5D3-QI-mrl" secondAttribute="top" id="cjh-nK-gGq"/>
+                        <constraint firstItem="unC-w7-lgg" firstAttribute="leading" secondItem="5D3-QI-mrl" secondAttribute="leading" id="vqg-6u-LzH"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="5D3-QI-mrl" firstAttribute="top" secondItem="ejo-p3-ZSF" secondAttribute="top" id="Bxj-Fz-jia"/>
+                <constraint firstItem="unC-w7-lgg" firstAttribute="width" secondItem="ejo-p3-ZSF" secondAttribute="width" id="Hle-Ix-44u"/>
+                <constraint firstAttribute="bottom" secondItem="5D3-QI-mrl" secondAttribute="bottom" id="jqk-Rt-q6v"/>
+                <constraint firstItem="unC-w7-lgg" firstAttribute="height" secondItem="ejo-p3-ZSF" secondAttribute="height" id="owm-Gf-DmN"/>
+                <constraint firstItem="5D3-QI-mrl" firstAttribute="leading" secondItem="ejo-p3-ZSF" secondAttribute="leading" id="s7S-Pg-k5R"/>
+                <constraint firstAttribute="trailing" secondItem="5D3-QI-mrl" secondAttribute="trailing" id="vA4-Yl-T52"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="tsD-ct-Ydw"/>
+            <point key="canvasLocation" x="-728" y="126"/>
         </view>
     </objects>
     <resources>

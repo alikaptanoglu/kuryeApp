@@ -9,9 +9,9 @@
 import UIKit
 
 
+
 class CustomButton: UIButton {
     
-    @IBOutlet weak var customButton: UIButton!
     
     @IBInspectable var titleText: String? {
         didSet {

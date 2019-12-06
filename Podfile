@@ -1,12 +1,10 @@
 
 target 'kuryeApp' do
-
 pod 'IQKeyboardManagerSwift'
-pod 'Validator'
 pod 'Alamofire'
 pod 'YPImagePicker'
 pod 'ServiceSpaceX'
-
+pod 'SwiftValidator', :git => 'https://github.com/jpotts18/SwiftValidator.git', :tag => '4.2.0'
 end
 
 

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DBE29DC27500C944D32DCF52 /* libPods-kuryeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69316DF3B2C3219B09066605 /* libPods-kuryeApp.a */; };
+		3786B20063C7058C0969C98A /* libPods-kuryeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8C00CDD36CA24D50AED3DB /* libPods-kuryeApp.a */; };
 		DE1FC45823979346004BCC37 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1FC45723979346004BCC37 /* BaseViewController.swift */; };
 		DE4F7AAA23953339003B6CE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F7AA923953339003B6CE9 /* AppDelegate.swift */; };
 		DE4F7AAE23953339003B6CE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F7AAD23953339003B6CE9 /* ViewController.swift */; };
@@ -20,11 +20,12 @@
 		DE4F7AC623955986003B6CE9 /* BasvuruViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4F7AC423955986003B6CE9 /* BasvuruViewController.xib */; };
 		DE88CEC22397CABA00B7203A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F7ABD23953394003B6CE9 /* LoginViewController.swift */; };
 		DE88CECA2397DEED00B7203A /* CustomButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE88CEC92397DEED00B7203A /* CustomButton.xib */; };
+		DE88CED0239A43A400B7203A /* ValidationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88CECF239A43A400B7203A /* ValidationSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		245072E74A8F1A66A380C952 /* Pods-kuryeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kuryeApp.debug.xcconfig"; path = "Target Support Files/Pods-kuryeApp/Pods-kuryeApp.debug.xcconfig"; sourceTree = "<group>"; };
-		69316DF3B2C3219B09066605 /* libPods-kuryeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kuryeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8C00CDD36CA24D50AED3DB /* libPods-kuryeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kuryeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F3733A15BAC89D807042BAE /* Pods-kuryeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kuryeApp.release.xcconfig"; path = "Target Support Files/Pods-kuryeApp/Pods-kuryeApp.release.xcconfig"; sourceTree = "<group>"; };
 		DE1FC45323967B5F004BCC37 /* kuryeApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kuryeApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		DE1FC45723979346004BCC37 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +42,7 @@
 		DE4F7AC323955986003B6CE9 /* BasvuruViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasvuruViewController.swift; sourceTree = "<group>"; };
 		DE4F7AC423955986003B6CE9 /* BasvuruViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasvuruViewController.xib; sourceTree = "<group>"; };
 		DE88CEC92397DEED00B7203A /* CustomButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomButton.xib; sourceTree = "<group>"; };
+		DE88CECF239A43A400B7203A /* ValidationSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationSystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBE29DC27500C944D32DCF52 /* libPods-kuryeApp.a in Frameworks */,
+				3786B20063C7058C0969C98A /* libPods-kuryeApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +60,7 @@
 		27CA8400F25AB8995F1F0B17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				69316DF3B2C3219B09066605 /* libPods-kuryeApp.a */,
+				2F8C00CDD36CA24D50AED3DB /* libPods-kuryeApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +117,7 @@
 				DE4F7AB72395333A003B6CE9 /* Info.plist */,
 				DE4F7AC1239547EB003B6CE9 /* CustomButton.swift */,
 				DE88CEC92397DEED00B7203A /* CustomButton.xib */,
+				DE88CECF239A43A400B7203A /* ValidationSystem.swift */,
 			);
 			path = kuryeApp;
 			sourceTree = "<group>";
@@ -130,7 +133,7 @@
 				DE4F7AA223953339003B6CE9 /* Sources */,
 				DE4F7AA323953339003B6CE9 /* Frameworks */,
 				DE4F7AA423953339003B6CE9 /* Resources */,
-				5327641D094BD0EE55E9C3F9 /* [CP] Copy Pods Resources */,
+				74B85EC0C1BAC1C6C9603531 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,7 +195,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5327641D094BD0EE55E9C3F9 /* [CP] Copy Pods Resources */ = {
+		74B85EC0C1BAC1C6C9603531 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -241,6 +244,7 @@
 				DE88CEC22397CABA00B7203A /* LoginViewController.swift in Sources */,
 				DE4F7AC523955986003B6CE9 /* BasvuruViewController.swift in Sources */,
 				DE4F7AAE23953339003B6CE9 /* ViewController.swift in Sources */,
+				DE88CED0239A43A400B7203A /* ValidationSystem.swift in Sources */,
 				DE4F7AAA23953339003B6CE9 /* AppDelegate.swift in Sources */,
 				DE4F7AC2239547EB003B6CE9 /* CustomButton.swift in Sources */,
 				DE1FC45823979346004BCC37 /* BaseViewController.swift in Sources */,
