@@ -21,6 +21,10 @@
 		DE88CEC22397CABA00B7203A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F7ABD23953394003B6CE9 /* LoginViewController.swift */; };
 		DE88CECA2397DEED00B7203A /* CustomButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE88CEC92397DEED00B7203A /* CustomButton.xib */; };
 		DE88CED0239A43A400B7203A /* ValidationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88CECF239A43A400B7203A /* ValidationSystem.swift */; };
+		DE88CED2239A9BC500B7203A /* SicilNoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88CED1239A9BC500B7203A /* SicilNoTextField.swift */; };
+		DE88CED4239A9BED00B7203A /* SicilNoTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE88CED3239A9BED00B7203A /* SicilNoTextField.xib */; };
+		DE88CED9239E332C00B7203A /* BasvuruTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88CED7239E332C00B7203A /* BasvuruTableViewCell.swift */; };
+		DE88CEDA239E332C00B7203A /* BasvuruTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE88CED8239E332C00B7203A /* BasvuruTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,10 @@
 		DE4F7AC423955986003B6CE9 /* BasvuruViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasvuruViewController.xib; sourceTree = "<group>"; };
 		DE88CEC92397DEED00B7203A /* CustomButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomButton.xib; sourceTree = "<group>"; };
 		DE88CECF239A43A400B7203A /* ValidationSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationSystem.swift; sourceTree = "<group>"; };
+		DE88CED1239A9BC500B7203A /* SicilNoTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SicilNoTextField.swift; sourceTree = "<group>"; };
+		DE88CED3239A9BED00B7203A /* SicilNoTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SicilNoTextField.xib; sourceTree = "<group>"; };
+		DE88CED7239E332C00B7203A /* BasvuruTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasvuruTableViewCell.swift; sourceTree = "<group>"; };
+		DE88CED8239E332C00B7203A /* BasvuruTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasvuruTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,10 @@
 				DE4F7AC1239547EB003B6CE9 /* CustomButton.swift */,
 				DE88CEC92397DEED00B7203A /* CustomButton.xib */,
 				DE88CECF239A43A400B7203A /* ValidationSystem.swift */,
+				DE88CED1239A9BC500B7203A /* SicilNoTextField.swift */,
+				DE88CED3239A9BED00B7203A /* SicilNoTextField.xib */,
+				DE88CED7239E332C00B7203A /* BasvuruTableViewCell.swift */,
+				DE88CED8239E332C00B7203A /* BasvuruTableViewCell.xib */,
 			);
 			path = kuryeApp;
 			sourceTree = "<group>";
@@ -184,8 +196,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE4F7AC023953394003B6CE9 /* LoginViewController.xib in Resources */,
+				DE88CED4239A9BED00B7203A /* SicilNoTextField.xib in Resources */,
 				DE4F7AB62395333A003B6CE9 /* LaunchScreen.storyboard in Resources */,
 				DE4F7AB32395333A003B6CE9 /* Assets.xcassets in Resources */,
+				DE88CEDA239E332C00B7203A /* BasvuruTableViewCell.xib in Resources */,
 				DE4F7AB123953339003B6CE9 /* Main.storyboard in Resources */,
 				DE88CECA2397DEED00B7203A /* CustomButton.xib in Resources */,
 				DE4F7AC623955986003B6CE9 /* BasvuruViewController.xib in Resources */,
@@ -241,9 +255,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE88CED9239E332C00B7203A /* BasvuruTableViewCell.swift in Sources */,
 				DE88CEC22397CABA00B7203A /* LoginViewController.swift in Sources */,
 				DE4F7AC523955986003B6CE9 /* BasvuruViewController.swift in Sources */,
 				DE4F7AAE23953339003B6CE9 /* ViewController.swift in Sources */,
+				DE88CED2239A9BC500B7203A /* SicilNoTextField.swift in Sources */,
 				DE88CED0239A43A400B7203A /* ValidationSystem.swift in Sources */,
 				DE4F7AAA23953339003B6CE9 /* AppDelegate.swift in Sources */,
 				DE4F7AC2239547EB003B6CE9 /* CustomButton.swift in Sources */,

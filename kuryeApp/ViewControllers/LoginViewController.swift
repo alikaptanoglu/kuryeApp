@@ -21,14 +21,10 @@ class LoginViewController: BaseViewController ,UITextFieldDelegate,ValidationDel
     @IBOutlet weak var kuryeSicilNo: UITextField!
     @IBOutlet weak var loginImage: UIImageView!
     @IBOutlet weak var loginButton: CustomButton!
-    
     @IBOutlet weak var errorSicilNo: UILabel!
     @IBOutlet weak var errorAdSoyad: UILabel!
+    
     let validator = Validator()
-  
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -42,7 +38,7 @@ class LoginViewController: BaseViewController ,UITextFieldDelegate,ValidationDel
         validator.styleTransformers(success:{ (validationRule) -> Void in
             print("here")
             // clear error label
-            validationRule.errorLabel?.isHidden = true
+            validationRule.errorLabel?.isHidden = false
             validationRule.errorLabel?.text = ""
             
             if let textField = validationRule.field as? UITextField {
@@ -74,7 +70,6 @@ class LoginViewController: BaseViewController ,UITextFieldDelegate,ValidationDel
         
     }
     
-    
     @objc func basvuruEkran (){
         //        let vc = BasvuruViewController()
         //        navigationController?.pushViewController(vc, animated: true)
@@ -101,6 +96,7 @@ class LoginViewController: BaseViewController ,UITextFieldDelegate,ValidationDel
             error.errorLabel?.isHidden = false
         }
     }
+    
     @objc func hideKeyboard(){
         self.view.endEditing(true)
     }
@@ -116,22 +112,4 @@ class LoginViewController: BaseViewController ,UITextFieldDelegate,ValidationDel
         return true
     }
     
-    
-    
-    
 }
-
-
-
-//    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-//        if kuryeSicilNo.isEditing == true{
-//            let invalidCharacters = CharacterSet(charactersIn: "0123456789").inverted
-//            return string.rangeOfCharacter(from: invalidCharacters) == nil
-//        }
-//        else{
-//            let invalidCharacters = CharacterSet(charactersIn: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLKMNOPQRSTUVWXYZ ").inverted
-//            return string.rangeOfCharacter(from: invalidCharacters) == nil
-//        }
-//    }
-
-// validator.registerField(kuryeSicilNo, errorLabel: errorSicilNo, rules: [RequiredRule(), MinLengthRule(length: 5)])
