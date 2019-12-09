@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3786B20063C7058C0969C98A /* libPods-kuryeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8C00CDD36CA24D50AED3DB /* libPods-kuryeApp.a */; };
+		B393BEC8239E5F0400B0C45C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BEC6239E5F0400B0C45C /* Model.swift */; };
+		B393BEC9239E5F0400B0C45C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BEC7239E5F0400B0C45C /* API.swift */; };
+		B393BECE239E5F9400B0C45C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BECD239E5F9400B0C45C /* LoginViewModel.swift */; };
+		B393BED2239E5FC100B0C45C /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393BED1239E5FC100B0C45C /* BaseViewModel.swift */; };
+		B3EDB2A6239E578200BEBA69 /* UsernameTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3EDB2A4239E578200BEBA69 /* UsernameTextField.xib */; };
+		B3EDB2A7239E578200BEBA69 /* UsernameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EDB2A5239E578200BEBA69 /* UsernameTextField.swift */; };
 		DE1FC45823979346004BCC37 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1FC45723979346004BCC37 /* BaseViewController.swift */; };
 		DE4F7AAA23953339003B6CE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F7AA923953339003B6CE9 /* AppDelegate.swift */; };
-		DE4F7AAE23953339003B6CE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F7AAD23953339003B6CE9 /* ViewController.swift */; };
-		DE4F7AB123953339003B6CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4F7AAF23953339003B6CE9 /* Main.storyboard */; };
 		DE4F7AB32395333A003B6CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4F7AB22395333A003B6CE9 /* Assets.xcassets */; };
 		DE4F7AB62395333A003B6CE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4F7AB42395333A003B6CE9 /* LaunchScreen.storyboard */; };
 		DE4F7AC023953394003B6CE9 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4F7ABE23953394003B6CE9 /* LoginViewController.xib */; };
@@ -20,7 +24,6 @@
 		DE4F7AC623955986003B6CE9 /* BasvuruViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4F7AC423955986003B6CE9 /* BasvuruViewController.xib */; };
 		DE88CEC22397CABA00B7203A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F7ABD23953394003B6CE9 /* LoginViewController.swift */; };
 		DE88CECA2397DEED00B7203A /* CustomButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE88CEC92397DEED00B7203A /* CustomButton.xib */; };
-		DE88CED0239A43A400B7203A /* ValidationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88CECF239A43A400B7203A /* ValidationSystem.swift */; };
 		DE88CED2239A9BC500B7203A /* SicilNoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88CED1239A9BC500B7203A /* SicilNoTextField.swift */; };
 		DE88CED4239A9BED00B7203A /* SicilNoTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE88CED3239A9BED00B7203A /* SicilNoTextField.xib */; };
 		DE88CED9239E332C00B7203A /* BasvuruTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88CED7239E332C00B7203A /* BasvuruTableViewCell.swift */; };
@@ -31,12 +34,16 @@
 		245072E74A8F1A66A380C952 /* Pods-kuryeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kuryeApp.debug.xcconfig"; path = "Target Support Files/Pods-kuryeApp/Pods-kuryeApp.debug.xcconfig"; sourceTree = "<group>"; };
 		2F8C00CDD36CA24D50AED3DB /* libPods-kuryeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kuryeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F3733A15BAC89D807042BAE /* Pods-kuryeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kuryeApp.release.xcconfig"; path = "Target Support Files/Pods-kuryeApp/Pods-kuryeApp.release.xcconfig"; sourceTree = "<group>"; };
+		B393BEC6239E5F0400B0C45C /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B393BEC7239E5F0400B0C45C /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B393BECD239E5F9400B0C45C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		B393BED1239E5FC100B0C45C /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		B3EDB2A4239E578200BEBA69 /* UsernameTextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsernameTextField.xib; sourceTree = "<group>"; };
+		B3EDB2A5239E578200BEBA69 /* UsernameTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsernameTextField.swift; sourceTree = "<group>"; };
 		DE1FC45323967B5F004BCC37 /* kuryeApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kuryeApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		DE1FC45723979346004BCC37 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		DE4F7AA623953339003B6CE9 /* kuryeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kuryeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4F7AA923953339003B6CE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE4F7AAD23953339003B6CE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE4F7AB023953339003B6CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE4F7AB22395333A003B6CE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE4F7AB52395333A003B6CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE4F7AB72395333A003B6CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +53,6 @@
 		DE4F7AC323955986003B6CE9 /* BasvuruViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasvuruViewController.swift; sourceTree = "<group>"; };
 		DE4F7AC423955986003B6CE9 /* BasvuruViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasvuruViewController.xib; sourceTree = "<group>"; };
 		DE88CEC92397DEED00B7203A /* CustomButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomButton.xib; sourceTree = "<group>"; };
-		DE88CECF239A43A400B7203A /* ValidationSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationSystem.swift; sourceTree = "<group>"; };
 		DE88CED1239A9BC500B7203A /* SicilNoTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SicilNoTextField.swift; sourceTree = "<group>"; };
 		DE88CED3239A9BED00B7203A /* SicilNoTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SicilNoTextField.xib; sourceTree = "<group>"; };
 		DE88CED7239E332C00B7203A /* BasvuruTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasvuruTableViewCell.swift; sourceTree = "<group>"; };
@@ -82,12 +88,75 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		B393BECA239E5F1400B0C45C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B393BEC7239E5F0400B0C45C /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B393BECB239E5F4600B0C45C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B393BECC239E5F5300B0C45C /* Model */,
+				DE4F7ABD23953394003B6CE9 /* LoginViewController.swift */,
+				DE4F7ABE23953394003B6CE9 /* LoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		B393BECC239E5F5300B0C45C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B393BECD239E5F9400B0C45C /* LoginViewModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B3EC7AEC239E3DD1001D75DC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B393BED1239E5FC100B0C45C /* BaseViewModel.swift */,
+				DE1FC45723979346004BCC37 /* BaseViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B3EC7AED239E3DE5001D75DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B393BEC6239E5F0400B0C45C /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3EC7AEE239E3DE9001D75DC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B3EC7AF0239E3E00001D75DC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DE4F7AC1239547EB003B6CE9 /* CustomButton.swift */,
+				DE88CEC92397DEED00B7203A /* CustomButton.xib */,
+				B3EDB2A5239E578200BEBA69 /* UsernameTextField.swift */,
+				B3EDB2A4239E578200BEBA69 /* UsernameTextField.xib */,
+				DE88CED1239A9BC500B7203A /* SicilNoTextField.swift */,
+				DE88CED3239A9BED00B7203A /* SicilNoTextField.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		DE1FC4562396807B004BCC37 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				DE1FC45723979346004BCC37 /* BaseViewController.swift */,
-				DE4F7ABD23953394003B6CE9 /* LoginViewController.swift */,
-				DE4F7ABE23953394003B6CE9 /* LoginViewController.xib */,
+				B393BECB239E5F4600B0C45C /* Login */,
+				DE88CED7239E332C00B7203A /* BasvuruTableViewCell.swift */,
+				DE88CED8239E332C00B7203A /* BasvuruTableViewCell.xib */,
 				DE4F7AC323955986003B6CE9 /* BasvuruViewController.swift */,
 				DE4F7AC423955986003B6CE9 /* BasvuruViewController.xib */,
 			);
@@ -115,21 +184,17 @@
 		DE4F7AA823953339003B6CE9 /* kuryeApp */ = {
 			isa = PBXGroup;
 			children = (
-				DE1FC4562396807B004BCC37 /* ViewControllers */,
 				DE4F7AA923953339003B6CE9 /* AppDelegate.swift */,
 				DE1FC45323967B5F004BCC37 /* kuryeApp-Bridging-Header.h */,
-				DE4F7AAD23953339003B6CE9 /* ViewController.swift */,
-				DE4F7AAF23953339003B6CE9 /* Main.storyboard */,
+				DE4F7AB72395333A003B6CE9 /* Info.plist */,
 				DE4F7AB22395333A003B6CE9 /* Assets.xcassets */,
 				DE4F7AB42395333A003B6CE9 /* LaunchScreen.storyboard */,
-				DE4F7AB72395333A003B6CE9 /* Info.plist */,
-				DE4F7AC1239547EB003B6CE9 /* CustomButton.swift */,
-				DE88CEC92397DEED00B7203A /* CustomButton.xib */,
-				DE88CECF239A43A400B7203A /* ValidationSystem.swift */,
-				DE88CED1239A9BC500B7203A /* SicilNoTextField.swift */,
-				DE88CED3239A9BED00B7203A /* SicilNoTextField.xib */,
-				DE88CED7239E332C00B7203A /* BasvuruTableViewCell.swift */,
-				DE88CED8239E332C00B7203A /* BasvuruTableViewCell.xib */,
+				B393BECA239E5F1400B0C45C /* API */,
+				B3EC7AED239E3DE5001D75DC /* Model */,
+				DE1FC4562396807B004BCC37 /* ViewControllers */,
+				B3EC7AEC239E3DD1001D75DC /* Core */,
+				B3EC7AEE239E3DE9001D75DC /* Extensions */,
+				B3EC7AF0239E3E00001D75DC /* UI */,
 			);
 			path = kuryeApp;
 			sourceTree = "<group>";
@@ -200,9 +265,9 @@
 				DE4F7AB62395333A003B6CE9 /* LaunchScreen.storyboard in Resources */,
 				DE4F7AB32395333A003B6CE9 /* Assets.xcassets in Resources */,
 				DE88CEDA239E332C00B7203A /* BasvuruTableViewCell.xib in Resources */,
-				DE4F7AB123953339003B6CE9 /* Main.storyboard in Resources */,
 				DE88CECA2397DEED00B7203A /* CustomButton.xib in Resources */,
 				DE4F7AC623955986003B6CE9 /* BasvuruViewController.xib in Resources */,
+				B3EDB2A6239E578200BEBA69 /* UsernameTextField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B393BEC8239E5F0400B0C45C /* Model.swift in Sources */,
 				DE88CED9239E332C00B7203A /* BasvuruTableViewCell.swift in Sources */,
+				B393BECE239E5F9400B0C45C /* LoginViewModel.swift in Sources */,
 				DE88CEC22397CABA00B7203A /* LoginViewController.swift in Sources */,
 				DE4F7AC523955986003B6CE9 /* BasvuruViewController.swift in Sources */,
-				DE4F7AAE23953339003B6CE9 /* ViewController.swift in Sources */,
+				B393BED2239E5FC100B0C45C /* BaseViewModel.swift in Sources */,
+				B393BEC9239E5F0400B0C45C /* API.swift in Sources */,
+				B3EDB2A7239E578200BEBA69 /* UsernameTextField.swift in Sources */,
 				DE88CED2239A9BC500B7203A /* SicilNoTextField.swift in Sources */,
-				DE88CED0239A43A400B7203A /* ValidationSystem.swift in Sources */,
 				DE4F7AAA23953339003B6CE9 /* AppDelegate.swift in Sources */,
 				DE4F7AC2239547EB003B6CE9 /* CustomButton.swift in Sources */,
 				DE1FC45823979346004BCC37 /* BaseViewController.swift in Sources */,
@@ -270,14 +338,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DE4F7AAF23953339003B6CE9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE4F7AB023953339003B6CE9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DE4F7AB42395333A003B6CE9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -410,12 +470,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 100;
 				INFOPLIST_FILE = kuryeApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.brgn.kuryeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "kuryeApp/kuryeApp-Bridging-Header.h";
@@ -432,12 +494,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 100;
 				INFOPLIST_FILE = kuryeApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.brgn.kuryeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "kuryeApp/kuryeApp-Bridging-Header.h";

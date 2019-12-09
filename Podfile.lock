@@ -1,7 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
   - IQKeyboardManagerSwift (6.5.4)
-  - KeychainAccess (4.1.0)
   - Moya (13.0.1):
     - Moya/Core (= 13.0.1)
   - Moya/Core (13.0.1):
@@ -13,18 +12,15 @@ PODS:
   - PryntTrimmerView (4.0.0)
   - ReachabilitySwift (5.0.0)
   - Result (4.1.0)
-  - ServiceSpaceX (3.0.1):
+  - ServiceSpaceX (3.0.5):
     - Alamofire
-    - KeychainAccess
     - Moya
     - NVActivityIndicatorView
     - ReachabilitySwift
     - SwiftDate
-    - SwiftyJSON
   - SteviaLayout (4.6.1)
   - SwiftDate (6.1.0)
   - SwiftValidator (4.0.0)
-  - SwiftyJSON (5.0.0)
   - YPImagePicker (4.1.2):
     - PryntTrimmerView (~> 4.0.0)
     - SteviaLayout (~> 4.6.0)
@@ -40,7 +36,6 @@ SPEC REPOS:
   trunk:
     - Alamofire
     - IQKeyboardManagerSwift
-    - KeychainAccess
     - Moya
     - NVActivityIndicatorView
     - PryntTrimmerView
@@ -49,7 +44,6 @@ SPEC REPOS:
     - ServiceSpaceX
     - SteviaLayout
     - SwiftDate
-    - SwiftyJSON
     - YPImagePicker
 
 EXTERNAL SOURCES:
@@ -65,19 +59,17 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   IQKeyboardManagerSwift: 2dde0fc70110e8eac7ccce2a46fdbec6a850b414
-  KeychainAccess: 445e28864fe6d3458b41fa211bcdc39890e8bd5a
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
   PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
-  ServiceSpaceX: 89d90fdaed9a89b8102a974882616fbcf4b1271d
+  ServiceSpaceX: 1ed679ef45bca69f65d181fb035d1731b30cc96e
   SteviaLayout: 0c83442390c8a369c21f975ffbd812d11532645b
   SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
   SwiftValidator: 249b6b3ae3b294266c5b9de134d94f18f2d5aa47
-  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   YPImagePicker: bdaa46782668e260fdd9709f19043a9f469fd2ad
 
 PODFILE CHECKSUM: 5ecb58844429ad91418cb9834e3bbde7d260b93f
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.8.4

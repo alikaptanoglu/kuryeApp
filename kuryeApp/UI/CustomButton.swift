@@ -30,14 +30,14 @@ class CustomButton: UIButton {
             refreshCorners(value: cornerRadius)
         }
     }
-    @IBInspectable var imageText: UIImage? {
-          didSet {
-            self.setBackgroundImage(imageText, for: .normal)
-
-          }
-      }
-    
-    
+//    @IBInspectable var imageText: UIImage? {
+//          didSet {
+//            self.setBackgroundImage(imageText, for: .normal)
+//
+//          }
+//      }
+//
+//
     
     var borderWidth: CGFloat = 2.0
     var borderColor = UIColor.white.cgColor
@@ -71,7 +71,7 @@ class CustomButton: UIButton {
         self.clipsToBounds = true
         self.layer.borderColor = borderColor
         self.layer.borderWidth = borderWidth
-        self.setBackgroundImage(self.imageText, for: .normal)
+        
         
         
         

@@ -20,19 +20,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        self.window = UIWindow(frame: UIScreen.main.bounds)
-         let nav1 = UINavigationController()
-         let mainView = LoginViewController(nibName: nil, bundle: nil) //ViewController = Name of your controller
-         nav1.viewControllers = [mainView]
-         self.window!.rootViewController = nav1
-         self.window?.makeKeyAndVisible()
-        
-        
-        
-      
+
         IQKeyboardManager.shared.enable = true
-    
+        IQKeyboardManager.shared.enableAutoToolbar = true
+        IQKeyboardManager.shared.shouldShowToolbarPlaceholder = true
+        IQKeyboardManager.shared.shouldResignOnTouchOutside = true
+        IQKeyboardManager.shared.toolbarDoneBarButtonItemText = "Tamam".localized
+        IQKeyboardManager.shared.keyboardDistanceFromTextField = 70
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let nav1 = UINavigationController()
+        let mainView = LoginViewController(nibName: nil, bundle: nil) //ViewController = Name of your controller
+        nav1.viewControllers = [mainView]
+        self.window!.rootViewController = nav1
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
     
